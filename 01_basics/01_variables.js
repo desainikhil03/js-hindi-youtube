@@ -9,11 +9,16 @@ accountEmail = "nicks@gmail.com"
 accountPassword = "2456676445"
 accountCity = "pune"
 
-console.log(accountId);
+//console.log(accountId);
 
 /*
 Prefer not to use var
 because of issue in block scope and functional scope
 */ 
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+//console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+
+const demo = 'abc'
+
+//demo = 'asd' // error
+console.log(demo);
